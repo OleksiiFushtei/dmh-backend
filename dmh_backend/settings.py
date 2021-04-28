@@ -72,7 +72,7 @@ DATABASES = {
         'NAME': 'dmhDB',
         'USER': 'postgres',
         'PASSWORD': 'password',
-        'HOST': 'localhost'
+        'HOST': 'dmhbackend.herokuapp.com'
     }
 }
 
