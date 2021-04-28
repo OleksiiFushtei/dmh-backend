@@ -14,7 +14,8 @@ SECRET_KEY = 'django-insecure-1gyfsuwj1@yjtdsr22@j1ratr^-sl1fu+w&25$ve1s@4nwlj-l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dmhbackend.herokuapp.com']
+# ALLOWED_HOSTS = ['dmhbackend.herokuapp.com']
+ALLOWED_HOSTS = ['']
 
 
 # Application definition
@@ -66,26 +67,26 @@ WSGI_APPLICATION = 'dmh_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dmhDB',
-#         'USER': 'postgres',
-#         'PASSWORD': 'password',
-#         'HOST': 'localhost'
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ddml7vb1q5vk9a',
-        'USER': 'napccybbqhuxag',
-        'PASSWORD': '8d746ab968e39ca973fa132a955c090533da618b0cf14db40840e01e219ebf5a',
-        'HOST': 'ec2-52-209-134-160.eu-west-1.compute.amazonaws.com',
-        'PORT': '5432'
+        'NAME': 'dmhDB',
+        'USER': 'postgres',
+        'PASSWORD': 'password',
+        'HOST': 'localhost'
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'ddml7vb1q5vk9a',
+#         'USER': 'napccybbqhuxag',
+#         'PASSWORD': '8d746ab968e39ca973fa132a955c090533da618b0cf14db40840e01e219ebf5a',
+#         'HOST': 'ec2-52-209-134-160.eu-west-1.compute.amazonaws.com',
+#         'PORT': '5432'
+#     }
+# }
 
 
 # Password validation
