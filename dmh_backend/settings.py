@@ -79,10 +79,11 @@ WSGI_APPLICATION = 'dmh_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dmhDB',
+        'NAME': 'ddml7vb1q5vk9a',
         'USER': 'napccybbqhuxag',
         'PASSWORD': '8d746ab968e39ca973fa132a955c090533da618b0cf14db40840e01e219ebf5a',
-        'HOST': 'postgres://napccybbqhuxag:8d746ab968e39ca973fa132a955c090533da618b0cf14db40840e01e219ebf5a@ec2-52-209-134-160.eu-west-1.compute.amazonaws.com:5432/ddml7vb1q5vk9a'
+        'HOST': 'ec2-52-209-134-160.eu-west-1.compute.amazonaws.com'
+        'PORT': '5432'
     }
 }
 
