@@ -66,13 +66,23 @@ WSGI_APPLICATION = 'dmh_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'dmhDB',
+#         'USER': 'postgres',
+#         'PASSWORD': 'password',
+#         'HOST': 'localhost'
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dmhDB',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': 'dmhbackend.herokuapp.com'
+        'USER': 'napccybbqhuxag',
+        'PASSWORD': '8d746ab968e39ca973fa132a955c090533da618b0cf14db40840e01e219ebf5a',
+        'HOST': 'postgres://napccybbqhuxag:8d746ab968e39ca973fa132a955c090533da618b0cf14db40840e01e219ebf5a@ec2-52-209-134-160.eu-west-1.compute.amazonaws.com:5432/ddml7vb1q5vk9a'
     }
 }
 
