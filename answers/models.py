@@ -6,4 +6,4 @@ class Answer(models.Model):
     pair = models.CharField(max_length=10, default="")
 
     def __str__(self):
-        return self.pair + " : " + self.answer
+        return self.pair + " : " + str(self.answer)
